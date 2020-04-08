@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main () {
+	//membuat program continue
+	
+	cout << "Nama: Muhammad Yusfi Khatami" <<endl;
+	cout << "NIM: ETE10190110" <<endl;
+	cout << "Prodi: Teknik Elektromedik" <<endl;
+	cout << endl;
+	cout << "Inilah tampilan dari continue" <<endl;
+	for (int i = 1 ; i <= 100 ; i++) {
+		if (i % 2 == 0) continue;
+		cout << i << endl;
+	}
+}
