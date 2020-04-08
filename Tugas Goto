@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main () 
+{
+	//membuat program goto
+	char jump = 'Z';
+	
+	cout << "Nama: Muhammad Yusfi Khatami" <<endl;
+	cout << "NIM: ETE10190110" <<endl;
+	cout << "Prodi: Teknik Elektromedik" <<endl;
+	cout << "Inilah tampilan dari program goto" <<endl;
+	cout << endl;
+	cout << "Masukkan huruf x untuk melompat" <<endl;
+	cout << "Masukkan huruf y untuk tidak melompat" <<endl;
+	cin >> jump;
+	
+	cout << "L" <<endl;
+	if (jump == 'x') goto lompat;
+	cout << "M" <<endl;
+	lompat:
+	cout << "N" <<endl;
+}
